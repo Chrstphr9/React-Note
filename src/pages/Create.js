@@ -2,6 +2,8 @@ import React from 'react'
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
+import SendIcon from '@mui/icons-material/Send';
+import { KeyboardArrowRight } from '@mui/icons-material';
 
 export default function Create() {
   return (
@@ -20,6 +22,7 @@ export default function Create() {
         type='submit'
         color='secondary'
         variant="contained"
+        endIcon={<KeyboardArrowRight />}
       >
         Submit
       </Button>
